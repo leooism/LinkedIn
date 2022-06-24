@@ -1,0 +1,42 @@
+.feed-header {
+	display: flex;
+	gap: 0.8em;
+}
+.feed-header div {
+	display: flex;
+	flex-direction: column;
+}
+.designation,
+.timeStamp {
+	font-size: 0.8rem;
+	color: gray;
+}
+.feed-body {
+	display: flex;
+	flex-direction: column;
+	gap: 0.7rem;
+}
+.feed-body__des {
+	text-align: left;
+	font-size: 0.9rem;
+}
+
+.feed-body__image {
+	width: 100%;
+	height: 300px;
+}
+.feed-body__reactions {
+	display: flex;
+	justify-content: space-around;
+	color: gray;
+}
+.feed-body__reactionsNumber {
+	display: flex;
+	justify-content: space-between;
+}
+.feed-body__reactions > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.4rem;
+}
